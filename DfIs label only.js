@@ -1,7 +1,7 @@
-﻿var numposts = 100;
-var standardstyling = true;
+﻿/* DfIs Only specific label by ketanggisan.blogspot.com */
 
-*/
+var numposts = 9999;
+var standardstyling = true;
 
 function startpost(json){
   for (var i = 0; i < numposts; i++){
@@ -26,6 +26,4 @@ function startpost(json){
   if (standardstyling) document.write('</li>');
 }
 
-function finished(){
-  document.write('<br /><br /><a href="https://ketanggisan.blogspot.com" style="font-size: 10 px; text-decoration:none; color: #616469;" target="_blank" title="ketanggisan">DfIs</a>');
-}
+function finished(){}
